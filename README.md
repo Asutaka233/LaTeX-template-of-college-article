@@ -5,3 +5,5 @@
 （ps:在本校哲学学院包含哲学和应用心理学两个专业，因此两者是不分家的）
 # 后续工作
 目前本人已将源码上传至[本人博客](https://www.asutaka.ink)，同时计划在不久后编写一篇从零开始安装、配置以及编写LaTeX的教程，主要面向非计算机专业尤其是文科（哲学）的学生，以便于论文编写以及确保格式标准化
+# 效果图
+![alt text](https://github.com/Asutaka233/LaTeX-template-of-college-article/blob/main/latex-1.png)
