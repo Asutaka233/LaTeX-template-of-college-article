@@ -1,24 +1,45 @@
-\documentclass[a4paper]{article}
+\documentclass[a4paper]{ctexart}
 \usepackage{authblk}
-\usepackage{ctex}
 \usepackage{titlesec}
 \usepackage[superscript]{cite}
-\title{测试}
-\author{阿苏塔卡}
-\affil{安徽大学哲学学院}
+\usepackage{fancyhdr}
+\usepackage[runin]{abstract}
+\setCJKmainfont[BoldFont={SimHei}]{SimSun}
+\setlength{\absleftindent}{0pt}
+\setlength{\abstitleskip}{-2em}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{}
+\fancyhead[C]{\thepage}
+\fancyhead[R]{}
+\ctexset{
+    section={   
+        name={,、},
+        number={\chinese{section}}
+    },
+    subsection={   
+        name={,、},
+        number={\arabic{subsection}}
+    }
+}
+\title{\textbf{模版文件}}
+\author{\textbf{阿苏塔卡}}
+\affil{（学号，班级，学校）}
+\date{}
 \begin{document}
 \maketitle
+\thispagestyle{empty}
 \begin{abstract}
-This is a test document.
 \end{abstract}
 \begin{description}
-\item[关键词] 测试，LaTeX，文档结构
+\setlength{\leftskip}{2em}
+\item[关键词]
 \end{description}
-\section{引言}
-这是一个测试文档，用于展示LaTeX的基本结构\cite{1}。
-\subsection{测试}
-测试
+\section{title 1}
+This is a test document.\cite{1}
+\par next paragraph.
+\subsection{title 1.1}
 \begin{thebibliography}{114514}
-\bibitem{1} 阿苏塔卡. 测试文件. 安徽大学哲学学院, 2025.
+\bibitem{1}测试文档. 阿苏塔卡. 2025.
 \end{thebibliography}
 \end{document}
